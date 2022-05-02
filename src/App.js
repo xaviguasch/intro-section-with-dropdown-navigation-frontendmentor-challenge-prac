@@ -1,13 +1,13 @@
 import './App.css'
 
-import Navigation from './components/Navigation'
+import Header from './components/Header'
 import Main from './components/Main'
 
 function App() {
   return (
     <div className='App'>
       <h1>Intro Section</h1>
-      <Navigation />
+      <Header />
 
       <Main />
     </div>
