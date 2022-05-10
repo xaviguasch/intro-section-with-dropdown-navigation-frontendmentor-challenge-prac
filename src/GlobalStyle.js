@@ -3,6 +3,7 @@ import { createGlobalStyle } from 'styled-components/macro'
 const styled = { createGlobalStyle }
 
 export const GlobalStyle = styled.createGlobalStyle`
+
   * {
     padding: 0;
   @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap');
@@ -13,9 +14,11 @@ export const GlobalStyle = styled.createGlobalStyle`
     margin: 0;
     padding: 0;
   }
+
   /* ================== */
   /* Custom properties */
   /* ================== */
+
   :root {
     --ff-main: 'Epilogue', sans-serif;
     /* --fw-light: 300; */
@@ -56,6 +59,7 @@ export const GlobalStyle = styled.createGlobalStyle`
     /* Background  */
     --clr-white-bg: hsla(0, 0%, 100%, 1);
   }
+
   body {
     background: var(--clr-white-bg);
     color: var(--clr-medium-grey-text);
@@ -65,16 +69,20 @@ export const GlobalStyle = styled.createGlobalStyle`
     line-height: 1.625;
     text-align: center;
   }
+
   img {
     display: block;
     max-width: 100%;
   }
+
   ul {
     list-style: none;
   }
+
   /* ================== */
   /* Buttons & inputs */
   /* ================== */
+
   button {
   }
 `
